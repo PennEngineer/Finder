@@ -1,0 +1,11 @@
+Our team created an intuitive application called Finder that allows users to find venues of preference near them. Once the use enters in the zip code and venue preference, their search results will return in an organized manner along with the temperature. To achieve this, our team used two API’s, the Four Square and Open WeatherService API to gather data about venues and temperature based on the zip code. After the results from the API is organized and readable to the user, it is then displayed on our GUI which is a JSwing application.
+
+GitHub Repository Link:
+https://github.com/cit-591/final-project-summer-2019-team-j.git
+
+Work Breakdown:
+Christopher Nguyen - Added initial javadocs for initial code base, helped with formatting the UserInterface; correcting user inputs and program display outputs.
+
+Thad Truman - Structured project design, parsed Json response into venue object, helped with UserInterface, wrote some tests.
+
+Kevin Nguyen – set up the API call methods that calls Four Square and Open WeatherService in VenueService.java and WeatherService.java. Created 3 Junit test cases. Created the application GUI using JSwing.
